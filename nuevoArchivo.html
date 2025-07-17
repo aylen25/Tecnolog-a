@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Nueva</title>
+    <style>
+        :root {
+            --color-azul: blue;
+            --color-verde: springgreen;
+        }
+        .azul {
+            color: var(--color-azul);
+        }
+        .verde {
+            color: var(--color-verde);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo"></h1>
+    <p class="verde">hola</p>
+    <p class="azul">hola</p>
+    <script>
+        let titulo = document.getElementById("titulo");
+        titulo.innerHTML = "Hola soy aylen";
+        titulo.style.color = "blue";
+        titulo.style.backgroundColor = "#153";
+        // Puedes agregar más scripts aquí
+    </script>
+</body>
+</html>
+
